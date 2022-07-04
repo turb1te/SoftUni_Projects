@@ -9,19 +9,9 @@ public class WeekendOrWorkingDay {
         String day = userInput.nextLine();
 
         switch (day) {
-            case "Monday":
-            case "Tuesday":
-            case "Wednesday":
-            case "Thursday":
-            case "Friday":
-                System.out.println("Working day");
-                break;
-            case "Saturday":
-            case "Sunday":
-                System.out.println("Weekend");
-                break;
-            default:
-                System.out.println("Error");
+            case "Monday", "Tuesday", "Wednesday", "Thursday", "Friday" -> System.out.println("Working day");
+            case "Saturday", "Sunday" -> System.out.println("Weekend");
+            default -> System.out.println("Error");
         }
     }
 }
