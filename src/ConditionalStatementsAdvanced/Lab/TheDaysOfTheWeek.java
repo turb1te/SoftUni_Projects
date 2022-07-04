@@ -6,32 +6,32 @@ public class TheDaysOfTheWeek {
     public static void main(String[] args) {
         Scanner userInput = new Scanner(System.in);
 
-        String day = userInput.nextLine();
+        int dayNumber = Integer.parseInt(userInput.nextLine());
 
-        switch (day) {
-            case "Monday":
-                System.out.printf("Today is %s!", day);
+        switch (dayNumber) {
+            case 1:
+                System.out.println("Monday");
                 break;
-            case "Tuesday":
-                System.out.printf("Today is %s!", day);
+            case 2:
+                System.out.println("Tuesday");
                 break;
-            case "Wednesday":
-                System.out.printf("Today is %s!", day);
+            case 3:
+                System.out.println("Wednesday");
                 break;
-            case "Thursday":
-                System.out.printf("Today is %s!", day);
+            case 4:
+                System.out.println("Thursday");
                 break;
-            case "Friday":
-                System.out.printf("Today is %s!", day);
+            case 5:
+                System.out.println("Friday");
                 break;
-            case "Saturday":
-                System.out.printf("Today is %s!", day);
+            case 6:
+                System.out.println("Saturday");
                 break;
-            case "Sunday":
-                System.out.printf("Today is %s!", day);
+            case 7:
+                System.out.println("Sunday");
                 break;
             default:
-                System.out.println("Invalid day!");
+                System.out.println("Error");
                 break;
         }
     }
