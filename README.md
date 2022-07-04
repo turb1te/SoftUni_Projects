@@ -5,7 +5,7 @@ Here you will find everything I wrote during my courses at SoftUni.
 
 
 ## FirstStepsInCoding
-### ConditionalStatementsAdvanced.Lab
+### Lab
 
 |                                                                           JAVA Path                                                                           |            Online compiler             |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------:|
@@ -15,5 +15,5 @@ Here you will find everything I wrote during my courses at SoftUni.
 ### Exercises
 
 ## ConditionalStatements
-### ConditionalStatementsAdvanced.Lab
+### Lab
 ### Exercises
