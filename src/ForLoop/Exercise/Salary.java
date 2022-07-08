@@ -21,8 +21,6 @@ public class Salary {
                 case "Reddit":
                     salary -= 50;
                     break;
-                default:
-                    break;
             }
             if (salary <= 0) {
                 System.out.println("You have lost your salary.");
